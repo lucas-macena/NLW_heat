@@ -6,7 +6,7 @@ class AuthenticateUserController {
     async handle (request: Request,response: Response){
         
         const {code} = request.body
-        console.log("aki")
+        
         const service = new AuthenticateUserService()
         
         try {
